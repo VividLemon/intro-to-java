@@ -8,6 +8,15 @@ public class Constants {
 		final int MAX_AGE = 130;
 		final int MIN_AGE = 0;
 			
+			
+		
+		
+		
+		
+		
+		
+		
+		
 			System.out.println("You can not be younger than " + MIN_AGE);
 	}
 
