@@ -1,3 +1,4 @@
+package com.issayah.samplecode;
 import java.util.Scanner;
 public class bankBalance{
     public static final double OVERDRAWN_PENALTY = 8.0;
