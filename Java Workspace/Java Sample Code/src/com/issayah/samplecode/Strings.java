@@ -90,6 +90,9 @@ public class Strings {
 		// By the way, here is the official documentation for the String class from Oracle
 		// https://docs.oracle.com/javase/9/docs/api/java/lang/String.html
 		
+		String s = "It's raining cats and dogs";
+			//System.out.println(s);
+			System.out.println(s.replaceAll("cats", "cows").replaceAll("dogs", "whatever the other thing was "));
 		//charAt()
 		
 		//concat()
