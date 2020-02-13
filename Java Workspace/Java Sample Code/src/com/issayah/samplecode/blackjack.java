@@ -22,6 +22,7 @@ public class blackjack {
 			if(betted > startingM) {
 				System.out.println("You can't bet more than you have! \n Enter a correct value:");
 				betted = keyboard.nextInt();
+				startingM -= betted;
 			}else {
 				startingM -= betted;
 				System.out.println("New balance: " + startingM);

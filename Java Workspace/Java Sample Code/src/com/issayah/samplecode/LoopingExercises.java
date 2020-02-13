@@ -42,13 +42,13 @@ public class LoopingExercises {
 		for(int a = 0; a <= 10; a += 2) {
 			System.out.println(a);
 		}
-//		for(int b = 1; b <= 100; b++) {
-//			if(((b / 3) % 2) == 1 || ((b / 5) % 2) == 1) {
-//				
-//			}else {
-//				System.out.println(b);
-//			}
-//		}
+		for(int b = 1; b <= 100; b++) {
+			if(((b % 3) == 0) || ((b % 5) == 0)) {
+				
+			}else {
+				System.out.println(b);
+			}
+		}
 		
 		
 		
