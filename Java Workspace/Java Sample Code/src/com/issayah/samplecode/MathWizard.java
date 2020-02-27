@@ -19,7 +19,11 @@ public class MathWizard {
 	 */
 	
 	// create an instance variable - each instance of the MathWizard will keep track of how many calculations have been performed
-	int numberOfCalculationsPerformed;
+	private int numberOfCalculationsPerformed;
+	
+	public int getNumberOfCalculationsPerformed() {
+		return this.numberOfCalculationsPerformed;
+	}
 	
 	// create a method named 'add' that takes two ints (parameters) and returns the total
 	public int add(int num1, int num2) {

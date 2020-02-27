@@ -26,9 +26,9 @@ public class MathApp {
 		mw.showNumberOfCalculations();
 		
 		// show that the numberOfCalculcations performed can become corrupted...
-		mw.numberOfCalculationsPerformed = 1000000;
+		//mw.numberOfCalculationsPerformed = 1000000;
+		System.out.println(mw.getNumberOfCalculationsPerformed());
 		mw.showNumberOfCalculations();
-		
 	}
 
 }
