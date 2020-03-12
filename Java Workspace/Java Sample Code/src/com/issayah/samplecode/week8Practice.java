@@ -16,7 +16,7 @@ public class week8Practice {
 		}
 		System.out.println("Good job");
 		
-		for(int x = 0; x <= 100; x++) {
+		for(int x = 0; x <= 100; x += 2) {
 			System.out.println(x);
 		}
 		
